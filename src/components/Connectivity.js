@@ -14,6 +14,7 @@ function Connectivity() {
               <h1>Investing in</h1> <h1>Connectivity</h1>
             </div>
             <div></div>
+            <div className="bg-red-500 h-1 w-full m-4"></div>
           </div>
           <div className="grid grid-cols-5">
             <div className="col-span-3">
