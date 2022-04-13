@@ -32,34 +32,34 @@ function Tunnels() {
               Bangladesh’s logistics capacity and boosting GDP.
             </p>
           </div>
-          <div className="flex pb-20">
-            <div className="bg-bd-green h-36 w-72 rounded-3xl p-4 m-4">
+          <div className="flex pb-20 text-xl">
+            <div className="bg-bd-green h-36 w-72 rounded-3xl p-4 m-4 pt-6">
               <p className="text-white">
                 Chattogram, Bangladesh’s major port city, is becoming a South
                 Asian business hub
               </p>
             </div>
-            <div className="bg-green-700 h-36 w-72 rounded-3xl p-4 m-4">
+            <div className="bg-green-700 h-36 w-72 rounded-3xl p-4 m-4 pt-6">
               <p className="text-white">
                 Matarbari Deep Sea Port is Bangladesh's 1st deep-sea port
               </p>
             </div>
-            <div className="bg-green-900 h-36 w-72 rounded-3xl p-4 m-4">
+            <div className="bg-green-900 h-36 w-72 rounded-3xl p-4 m-4 pt-6">
               <p className="text-white">
                 Matabari Port could boost 3% Bangladesh's GDP by up to 3%
               </p>
             </div>
           </div>
           <div className="flex pb-20 justify-center ">
-            <div className="bg-red-500 h-72 w-72 rounded-3xl m-4">
+            <div className="bg-red-500 h-72 w-72 rounded-3xl m-4 text-xl p-3 text-center">
               <p className="text-white m-4">
                 Bangabandhu Sheikh Mujibur Rahman Tunnel is South Asia's{" "}
                 <p className="text-7xl font-bold">1st</p>
-                river tunnel
+                River tunnel
               </p>
             </div>
             <div className="h-80 w-80 rounded-3xl m-4 p-4">
-              <p>
+              <p className="text-xl ml-3 mb-16 font-light">
                 In the same geographical area, the Bangabandhu Sheikh Mujibur
                 Rahman Tunnel tunnel will run below the Karnaphuli River to
                 connect Anwara and Karnaphuli to Chattogram city, cutting the
