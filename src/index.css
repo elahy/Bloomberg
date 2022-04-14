@@ -3,3 +3,16 @@
 @tailwind utilities;
 
 /* @import "~video-react/styles/scss/video-react"; */
+
+#green {
+  animation: loading 1.4s ease-in-out;
+}
+
+@keyframes loading {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
+}
