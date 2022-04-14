@@ -4,11 +4,11 @@ import ReactPlayer from "react-player";
 function TechSector() {
   return (
     <div className="grid grid-cols-4">
-      <div className="flex">
+      <div className="hidden xl:flex">
         <div className="mt-40 h-96 w-20 bg-bd-green rotate-45"></div>
         <div className="mt-64 h-80 w-10 bg-red-500 rotate-45"></div>
       </div>
-      <div className="col-span-2 mt-24">
+      <div className="col-span-4 xl:col-span-2 mt-24">
         <div className="mb-10">
           <p className="text-5xl ml-3 font-bold text-gray-400">02</p>
           <h1 className="text-6xl ml-3 font-bold">

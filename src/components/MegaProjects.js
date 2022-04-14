@@ -4,14 +4,16 @@ import ReactPlayer from "react-player";
 function MegaProjects() {
   return (
     <div className="grid grid-cols-4">
-      <div className="flex">
+      <div className="hidden xl:flex">
         <div className="mt-40 h-96 w-20 bg-bd-green rotate-45"></div>
         <div className="mt-64 h-80 w-10 bg-red-500 rotate-45"></div>
       </div>
-      <div className="col-span-2 mt-24">
+      <div className="col-span-4 xl:col-span-2 mt-24">
         <div className="mb-10">
-          <p className="text-5xl ml-3 font-bold text-gray-400">01</p>
-          <h1 className="text-6xl ml-3 font-bold">
+          <p className="text-3xl xl:text-5xl ml-3 font-bold text-gray-400">
+            01
+          </p>
+          <h1 className="text-4xl xl:text-6xl ml-3 font-bold">
             How{" "}
             <h1 className="bg-red-500 inline px-2 pb-2 text-white">
               Mega-Infrastructure
@@ -30,8 +32,9 @@ function MegaProjects() {
         <div className="flex justify-center">
           <ReactPlayer
             url="./vid/file-240k-1.mp4"
-            width="924px"
-            height="517px"
+            // margin="8px"
+            max-width="924px"
+            max-height="517px"
             controls={true}
           />
         </div>

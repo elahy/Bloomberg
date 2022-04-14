@@ -2,7 +2,7 @@ import React from "react";
 
 function PadmaBridge() {
   return (
-    <div className="bg-[url('./img/padmabridge-1.webp')]">
+    <div className="bg-[url('./img/padmabrid.webp')] xl:bg-[url('./img/padmabridge-1.webp')]">
       <div className="h-screen grid grid-cols-2">
         <div className="mr-24 ml-40 grid grid-cols-2">
           <div></div>
