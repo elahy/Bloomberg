@@ -18,7 +18,7 @@ module.exports = {
       bd: ["53px", "78px"],
     },
     fontFamily: {
-      gilroy: ["Gilroy-Bold-Normal-6yn5P2uT"],
+      gilroy: ["Gilroy"],
     },
     extend: {
       colors: {
@@ -27,18 +27,50 @@ module.exports = {
         "black-rgba": "rgba(0, 0, 0, 0.7)",
       },
       animmation: {
-        dim: "dim 4s infinite",
+        loading: "loading 4s ease-out",
+        "fade-in-down": "fade-in-down 0.5s ease-out",
+        wiggle: "wiggle 1s ease-in-out infinite",
+        "bounce-short": "bounce 1s ease-in-out 5",
       },
       keyframes: {
-        dim: {
+        loading: {
           "0%": {
-            opacity: 1.0,
+            left: "0px",
           },
           "100%": {
-            opacity: 0.0,
+            left: "100px",
+          },
+        },
+        "fade-in-down": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+          wiggle: {
+            "0%, 100%": { transform: "rotate(-3deg)" },
+            "50%": { transform: "rotate(3deg)" },
+          },
+          bounce: {
+            "0%, 100%": {
+              transform: "translateY(-25%)",
+              "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+            },
+            "50%": {
+              transform: "translateY(0)",
+              "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
+            },
           },
         },
       },
+    },
+  },
+  variants: {
+    extend: {
+      animation: ["responsive", "motion-safe", "motion-reduce", "hover"],
     },
   },
   plugins: [],

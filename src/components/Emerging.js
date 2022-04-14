@@ -12,7 +12,7 @@ function Emerging() {
       }}
     >
       <div>
-        <p className="text-bd font-gilroy px-96 py-20 text-white">
+        <p className="text-bd font-bold px-96 py-20 text-white">
           Bangladesh has an emerging and vibrant startup economy that has the
           potential to expand very rapidly as international investors get
           involved. Its young population and workforce coupled with innovative
