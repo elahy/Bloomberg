@@ -9,16 +9,16 @@ function Connectivity() {
           <div className="mt-64 h-80 w-10 bg-red-500 rotate-45"></div>
         </div>
         <div className="col-span-4 xl:col-span-2 mt-24">
-          <div className="mb-10 grid grid-cols-2">
-            <div className="text-6xl ml-3 font-bold text-bd-green">
+          <div className="mb-10 xl:grid xl:grid-cols-2">
+            <div className="text-5xl xl:text-6xl mx-8 xl:ml-3 font-bold text-bd-green">
               <h1>Investing in</h1> <h1>Connectivity</h1>
             </div>
             <div></div>
-            <div className="bg-red-500 h-1 w-full m-4"></div>
+            <div className="bg-red-500 h-1 w-10/12 xl:w-full m-6 xl:m-4"></div>
           </div>
           <div className="grid grid-cols-5">
-            <div className="col-span-3">
-              <p className="text-xl ml-3 mb-16 font-">
+            <div className="col-span-5 xl:col-span-3">
+              <p className="text-xl mx-8 xl:ml-3 mb-16 font-">
                 Bangladesh Vision 2041, a national strategic plan to accelerate
                 the country's socio-economic growth, cites stronger and
                 better-quality infrastructure as a core need, seeing
@@ -26,7 +26,7 @@ function Connectivity() {
                 roads and transportation, where Bangladesh lags other
                 similar-stage Asian economies.
               </p>
-              <p className="text-xl ml-3 mb-16 font-">
+              <p className="text-xl mx-8 xl:ml-3 mb-16 font-">
                 To fuel the country's rapid economic growth, Bangladesh is
                 transforming its infrastructure through mega projects spanning
                 new ports, rail links and bridges. The Asian Development Bank
@@ -35,7 +35,7 @@ function Connectivity() {
                 efficiency – and Bangladesh is doing just that.
               </p>
             </div>
-            <div className="col-span-2 bg-[url('./img/bangladesh-40-billion.webp')] rounded-xl mx-8 h-full">
+            <div className="col-span-5 xl:col-span-2 bg-[url('./img/bangladesh-40-billion.webp')] rounded-xl mx-8 h-full">
               <div className="text-white p-9">
                 <h1 className="text-center text-4xl font-seminold">
                   Bangladesh's
@@ -49,7 +49,7 @@ function Connectivity() {
             </div>
           </div>
           <div>
-            <p className="text-xl my-8">
+            <p className="text-xl mx-8 xl:mx-0 my-8">
               The government is addressing the need for quality infrastructure,
               in particular transport infrastructure, with sustained investments
               and public-private partnerships that will help fill funding needs

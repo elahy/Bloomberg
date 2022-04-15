@@ -10,11 +10,11 @@ function Tunnels() {
         </div>
         <div className="col-span-4 xl:col-span-2 mt-24">
           <div className="mb-10">
-            <div className="text-6xl ml-3  text-bd-green">
+            <div className="text-4xl xl:text-6xl ml-3  text-bd-green">
               <h1 className="font-semibold">New Ports and Tunnels for</h1>
               <h1 className="font-bold">World-Class Connectivity</h1>
             </div>
-            <div className="bg-red-500 h-1 w-full m-4"></div>
+            <div className="bg-red-500 h-1 w-11/12  xl:w-full m-4"></div>
             <p className="text-xl ml-3 mb-16 font-light">
               Ports are high on the government’s strategy, with the main
               Chattogram Port presenting huge opportunities in terms of
@@ -32,7 +32,7 @@ function Tunnels() {
               Bangladesh’s logistics capacity and boosting GDP.
             </p>
           </div>
-          <div className="flex pb-20 text-xl">
+          <div className="ml-6 xl:ml-0 xl:flex pb-20 text-xl">
             <div className="bg-bd-green h-36 w-72 rounded-3xl p-4 m-4 pt-6">
               <p className="text-white">
                 Chattogram, Bangladesh’s major port city, is becoming a South
@@ -50,7 +50,7 @@ function Tunnels() {
               </p>
             </div>
           </div>
-          <div className="flex pb-20 justify-center ">
+          <div className="ml-6 xl:ml-6 xl:flex pb-20 justify-center ">
             <div className="bg-red-500 h-72 w-72 rounded-3xl m-4 text-xl p-3 text-center">
               <p className="text-white m-4">
                 Bangabandhu Sheikh Mujibur Rahman Tunnel is South Asia's{" "}

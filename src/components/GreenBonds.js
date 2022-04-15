@@ -10,8 +10,8 @@ function GreenBonds() {
       </div>
       <div className="col-span-4 xl:col-span-2 mt-24">
         <div className="mb-10">
-          <p className="text-5xl ml-3 font-bold text-gray-400">02</p>
-          <h1 className="text-6xl ml-3 font-bold">
+          <p className="text-5xl mx-8 xl:ml-3 font-bold text-gray-400">02</p>
+          <h1 className="text-4xl xl:text-6xl m-8 xl:ml-3 font-bold">
             How{" "}
             <h1 className="bg-red-500 inline px-2 pb-2 text-white">
               Sustainable Finance
@@ -24,7 +24,7 @@ function GreenBonds() {
           </h1>
         </div>
         <div>
-          <p className="text-2xl ml-3 mb-16 font-">
+          <p className="text-2xl mx-8 xl:ml-3 xl:mb-16 font-">
             Bangladesh offers innovative finance products, sustainable
             opportunities and impressive economic growth. With its stock indices
             among Asia’s top performing and new developments including green
@@ -33,13 +33,12 @@ function GreenBonds() {
         </div>
         <div className="flex justify-center">
           <ReactPlayer
+            className="adjust-me"
             url="./vid/file-240k-1.mp4"
-            width="924px"
-            height="517px"
             controls={true}
           />
         </div>
-        <div className="mb-32">
+        <div className="mx-4 mb-32">
           <p className="text-xl ml-3 my-12 font-light">
             Bangladesh has much to offer investors, including developing
             opportunities in sustainable finance and green investment, exposure

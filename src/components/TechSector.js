@@ -10,8 +10,10 @@ function TechSector() {
       </div>
       <div className="col-span-4 xl:col-span-2 mt-24">
         <div className="mb-10">
-          <p className="text-5xl ml-3 font-bold text-gray-400">02</p>
-          <h1 className="text-6xl ml-3 font-bold">
+          <p className="text-4xl xl:text-5xl mx-8 xl:ml-3 font-bold text-gray-400">
+            02
+          </p>
+          <h1 className="text-4xl xl:text-6xl mx-8 xl:ml-3 font-bold">
             It's Time for Investors to Notice Bangladesh's{" "}
             <h1 className="bg-red-500 inline px-2 pb-2 text-white">
               Innovative Tech Sector
@@ -19,7 +21,7 @@ function TechSector() {
           </h1>
         </div>
         <div>
-          <p className="text-2xl ml-3 mb-16 font-">
+          <p className="text-2xl mx-8 xl:ml-3 mb-16 font-">
             Bangladesh has a young population, a government pushing for
             digitalization and a rapidly expanding startup scene, creating a
             range of opportunities. Foreign investors are tapping into the huge
@@ -29,18 +31,18 @@ function TechSector() {
         <div className="flex justify-center">
           <ReactPlayer
             url="./vid/file-240k-1.mp4"
-            width="924px"
-            height="517px"
+            max-width="924px"
+            max-height="517px"
             controls={true}
           />
         </div>
         <div className="mb-32">
-          <p className="text-xl ml-3 my-12 font-light">
+          <p className="text-xl  mx-8 xl:ml-3 my-12 font-light">
             Investment is flowing into Bangladesh’s startup companies, attracted
             by a young workforce, advancing digital policies and the potential
             for exponential expansion.
           </p>
-          <p className="text-xl ml-3 my-12 font-light">
+          <p className="text-xl  mx-8 xl:ml-3 my-12 font-light">
             A combined $380 million in disclosed investments headed to more than
             50 startups in 2021, according to Dhaka-based news outlet Future
             Startup, and many others completed undisclosed deals. Dhaka-based
@@ -51,7 +53,7 @@ function TechSector() {
             behind some of its emerging-market peers, making the opportunities
             for growth all the more real.
           </p>
-          <p className="text-xl ml-3 my-12 font-light">
+          <p className="text-xl  mx-8 xl:ml-3 my-12 font-light">
             Rapid expansion of this sector is set to continue, underpinned by
             fast economic growth across the country and a recovery from the
             worst of the Covid-19 pandemic. Even though there are still some

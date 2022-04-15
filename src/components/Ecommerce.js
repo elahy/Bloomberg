@@ -10,11 +10,11 @@ function Ecommerce() {
         </div>
         <div className="col-span-4 xl:col-span-2 mt-24">
           <div className="mb-10">
-            <div className="text-6xl ml-3 font-bold text-bd-green">
+            <div className="text-4xl xl:text-6xl m-8 xl:ml-3 font-bold text-bd-green">
               <h1>Powering Bangladesh's</h1> <h1>Economic Growth</h1>
             </div>
-            <div className="bg-red-500 h-1 w-full m-4"></div>
-            <p className="text-xl ml-3 mb-16 font-light">
+            <div className="bg-red-500 h-1 w-11/12 xl:w-full m-4"></div>
+            <p className="text-xl mx-8 xl:ml-3 mb-16 font-light">
               Bangladesh’s government has a long-held strategy of moving beyond
               manufacturing to a high-value, knowledge-intensive economy. This
               focus – coupled with strong economic growth and a supportive
@@ -24,8 +24,8 @@ function Ecommerce() {
             </p>
           </div>
           <div className="grid grid-cols-5">
-            <div className="col-span-3">
-              <p className="text-xl ml-3 mb-16 font-light">
+            <div className="col-span-5 xl:col-span-3">
+              <p className="text-xl mx-8 xl:ml-3 mb-16 font-light">
                 To fuel the country's rapid economic growth, Bangladesh is
                 transforming its infrastructure through mega projects spanning
                 new ports, rail links and bridges. The Asian Development Bank
@@ -33,7 +33,7 @@ function Ecommerce() {
                 competitiveness of domestic industries and overall economic
                 efficiency – and Bangladesh is doing just that.
               </p>
-              <p className="text-xl ml-3 mb-16 font-light">
+              <p className="text-xl mx-8 xl:ml-3 mb-16 font-light">
                 To fuel the country's rapid economic growth, Bangladesh is
                 transforming its infrastructure through mega projects spanning
                 new ports, rail links and bridges. The Asian Development Bank
@@ -42,7 +42,7 @@ function Ecommerce() {
                 efficiency – and Bangladesh is doing just that.
               </p>
             </div>
-            <div className="col-span-2 bg-[url('./img/mask-group-11-million.webp')] bg-no-repeat bg-cover rounded-xl mx-8 w-full">
+            <div className="col-span-5 xl:col-span-2 bg-[url('./img/mask-group-11-million.webp')] bg-no-repeat bg-cover rounded-xl mx-8 w-10/12 xl:w-full">
               <div className="text-white p-9">
                 <h1 className="text-center text-4xl font-seminold">
                   E-commerce logistics firm Paperfly attracted in

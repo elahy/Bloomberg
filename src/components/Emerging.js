@@ -2,7 +2,7 @@ import React from "react";
 
 function Emerging() {
   return (
-    <div className="bg-[url('./img/padmabrid.webp')] xl:bg-[url('./img/padmabridge-1.webp')]">
+    <div className="bg-[url('./img/emerg.webp')] xl:bg-[url('./img/emerging.webp')] h-full bg-cover bg-no-repeat">
       <div>
         <p className="text-3xl xl:text-bd font-bold mx-6 xl:mx-20 px-4 xl:px-96 py-16 xl:py-20 text-white">
           Bangladesh has an emerging and vibrant startup economy that has the

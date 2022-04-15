@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="m-20 bg-transparent">
+    <div className="m-8 xl:m-20 bg-transparent">
       <h1 className="mt-20 text-center text-4xl font-semibold">
         Find out more
       </h1>

@@ -2,18 +2,22 @@ import React from "react";
 
 function Congestion() {
   return (
-    <div className="bg-[url('./img/scroll-infograph-bg-5.webp')] h-screen bg-no-repeat bg-cover">
+    <div className="bg-[url('./img/scroll-infograph.webp')] xl:bg-[url('./img/scroll-infograph-bg-5.webp')] bg-no-repeat bg-cover">
       <div className="h-full bg-black-rgba grid grid-cols-4">
         <div></div>
-        <div className="col-span-2">
-          <div className="text-white mt-20 text-4xl grid grid-cols-2">
-            <h1 className="text-left">Cutting down Congestion </h1>
-            <h1 className="text-right">Padma Multipurpose Bridge</h1>
+        <div className="col-span-4 xl:col-span-2">
+          <div className="text-white mt-20 text-4xl xl:grid xl:grid-cols-2">
+            <h1 className="text-center xl:text-left">
+              Cutting down Congestion{" "}
+            </h1>
+            <h1 className="hidden xl:inline text-right">
+              Padma Multipurpose Bridge
+            </h1>
           </div>
-          <div className="bg-red-500 h-1 w-full m-4"></div>
-          <div className="grid grid-cols-2 text-white mt-12">
+          <div className="bg-red-500 h-1 w-11/12 xl:w-full m-4"></div>
+          <div className="xl:grid grid-cols-2 text-white mt-12">
             <div>
-              <p className="text-2xl">
+              <p className="m-8 xl:m-0 text-2xl">
                 The Padma Multipurpose Bridge is just one of several large-scale
                 improvements to transportation that Vision 2041 cites as vital
                 for boosting trade, removing bottlenecks around major cities and
