@@ -69,11 +69,11 @@ function Videos() {
         </div>
         <div className="flex justify-center">
           <ReactPlayer
+            className="adjustme"
+            id="adjustme"
+            width="320px"
+            height="240px"
             url="./vid/file-240k-1.mp4"
-            max-width="924px"
-            min-width="50vw"
-            max-height="517px"
-            min-heoght="50vw"
             controls={true}
           />
         </div>
