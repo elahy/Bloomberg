@@ -30,9 +30,11 @@ function TechSector() {
         </div>
         <div className="flex justify-center">
           <ReactPlayer
+            className="adjustme"
+            id="adjustme"
+            width="320px"
+            height="240px"
             url="./vid/file-240k-1.mp4"
-            max-width="924px"
-            max-height="517px"
             controls={true}
           />
         </div>

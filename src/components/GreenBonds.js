@@ -33,7 +33,10 @@ function GreenBonds() {
         </div>
         <div className="flex justify-center">
           <ReactPlayer
-            className="adjust-me"
+            className="adjustme"
+            id="adjustme"
+            width="320px"
+            height="240px"
             url="./vid/file-240k-1.mp4"
             controls={true}
           />
