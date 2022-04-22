@@ -82,7 +82,7 @@ function Videos() {
             Explore One of the World's Fastest-Growing Economies
           </h1>
           <div className="flex">
-            <div className="mx-2 xl:mx-4 my-8 w-60 xl:w-72">
+            <div className="mx-1 xl:mx-4 my-8 w-60 xl:w-72">
               <img
                 className="rounded p-4"
                 src="./img/video2-thumbnail-2.webp"
